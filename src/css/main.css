@@ -192,3 +192,57 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+.blogpost-img-container {
+  padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+  width: 100%;
+}
+
+.blogpost-main-container {
+  padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+}
+.blogpost-main-container article h1 {
+  font-size: 35px;
+}
+
+.contact-main-container {
+  background-color: #cdd2da;
+  width: 100%;
+  height: 330px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.contact-main-container img {
+  width: 90px;
+}
+.contact-main-container div {
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 0% 70%;
+  justify-content: center;
+}
+.contact-right a {
+  grid-column: 2;
+  border-bottom: 1px solid black;
+  width: 90px;
+}
+.contact-right p {
+  grid-column: 2;
+}
+.contact-left a {
+  grid-column: 2;
+  border-bottom: 1px solid black;
+  width: 90px;
+}
+.contact-left p {
+  grid-column: 2;
+}
