@@ -134,17 +134,30 @@ nav .profile-link a {
 
 .blogs-main-new {
   display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+.blogs-news-img-container {
+  grid-column: 1;
+}
+
+.contact-main-new {
+  display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 2fr;
   padding-top: 30px;
 }
-.blogs-news-img-container {
+.contact-news-img-container {
   grid-column: 1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .blogs-news-img-container img {
+  width: 85%;
+}
+.contact-news-img-container img {
   width: 85%;
 }
 
